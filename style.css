@@ -1,0 +1,73 @@
+/* За допомогою position */
+.position-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .circle {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.circle1 {
+    background-color: #fc3a3a;
+    top: 10px;
+    left: 60px;
+    z-index: 1;
+}
+
+.circle2 {
+    background-color: #3a90fc;
+    top: 110px;
+    left: 0px;
+    z-index: 3;
+}
+
+.circle3 {
+    background-color: #3abe50;
+    top: 110px;
+    left: 120px;
+    z-index: 2;
+}
+
+  /* За допомогою transform */
+  .transform-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+  .transform-circle {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.transform-circle1 {
+    background-color: #fc3a3a;
+    transform: translate(140px, 10px);
+    z-index: 1;
+}
+
+.transform-circle2 {
+    background-color: #3a90fc;
+    transform: translate(80px, 110px);
+    z-index: 3;
+}
+
+.transform-circle3 {
+    background-color: #3abe50;
+    transform: translate(200px, 110px);
+    z-index: 2;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Пінчук_О.П._ІК-22</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        /* Кольори для першого рядка */
+        tr:nth-child(1) {
+            background-color: #358f8f ;
+            color: #ffffff;
+        }
+        /* Кольори для другого рядка */
+        tr:nth-child(2) {
+            background-color: #f5f535;
+            color: #000000;
+        }
+        /* Hover ефекти для першого рядка */
+        tr:nth-child(1):hover {
+            background-color: #f5f535;
+            color: #000000;
+        }
+        /* Hover ефекти для другого рядка */
+        tr:nth-child(2):hover {
+            background-color: #358f8f;
+            color: #ffffff;
+        }
+    
+    </style>
+</head>
+<body>
+
+    <!-- Таблиця з інформацією -->
+    <table>
+        <tr>
+            <td colspan="2">Пінчук</td> 
+            <td colspan="2">Олена</td> 
+            <td colspan="4">Петрівна</td>  
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2">ІК-22</td> 
+            <td rowspan="2">ЛР-2</td> 
+            <td></td> 
+            <td colspan="4" rowspan="2">Варіант-5</td> 
+        </tr>
+        <td></td>  
+        </tr>
+        <tr>
+            <td colspan="2"></td> 
+            <td colspan="4"></td> 
+            <td colspan="2"></td> 
+        </tr>
+    </table>
+
+    <!-- Фігури з використанням position -->
+    <div class="position-container">
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="circle circle3"></div>
+      </div>
+  
+      <!-- Фігури з використанням transform -->
+      <div class="transform-container">
+        <div class="transform-circle transform-circle1"></div>
+        <div class="transform-circle transform-circle2"></div>
+        <div class="transform-circle transform-circle3"></div>
+      </div>
+
+</body>
+</html>
